@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SIGN FORM</title>
 </head>
 <style>
     .form {
@@ -12,7 +12,7 @@
       flex-direction: column;
       margin: 30px 50px;
       gap: 25px;
-      background-color: aliceblue;
+      background-color: rgb(247, 240, 255);
       border: 1px solid gray;
       padding: 20px 50px;
       width: 600px;
@@ -25,10 +25,7 @@
         align-items: center;
 
     }
-    .submit{
-        background-color: blue;
-
-    }
+  
 
      
 </style>
@@ -37,7 +34,7 @@
     <form id="" class="" onsubmit="" action="">
     <div class="section_one">
         <div>
-            <label class="label">firstname</label>
+            <label class="label">firstname:</label>
         </div>
         <div>
             <input
@@ -50,7 +47,7 @@
    <br>
   <div class="section_one">
     <div>
-        <label class="label">Lastname</label>
+        <label class="label">Lastname:</label>
     </div>
     <div>
         <input
@@ -63,7 +60,7 @@
 <br>
   <div class="section_one">
     <div>
-        <label class="label">Email</label>
+        <label class="label">Email:</label>
     </div>
     <div>
         <input
@@ -76,7 +73,7 @@
 <br>
   <div class="section_one">
     <div>
-        <label class="label">phoneNumber</label>
+        <label class="label">phoneNumber:</label>
     </div>
     <div>
         <input
@@ -89,9 +86,9 @@
 <br>
   <div class="section_one">
     <div>
-        <label class="label">Status
+        <label class="select">Status:
             <br>
-            <label class="label">single</label>
+            <label class="input">single</label>
             <input
             type="checkbox"
             class="input"
@@ -112,7 +109,7 @@
 <br>
   <div class="section_one">
     <div>
-        <label class="label">gender</label>
+        <label class="label">Gender:</label>
         <br>
         <label class="label">male</label>
         <input
@@ -130,7 +127,7 @@
 <br>
 <div class="section_one">
     <div>
-        <label>Date of birth</label>
+        <label>Date of birth:</label>
     </div>
     <div>
         <input
@@ -141,12 +138,12 @@
 <br>
 <div class="section_one">
     <div>
-        <label class="textarea">Bio</label>
+        <label class="textarea">Bio:</label>
     </div>
     <div>
         <input
-        type="text"
-        class="textarea"
+        type="textarea"
+        class="input"
         placeholder="Enter your bio"
         />
     </div>
@@ -154,16 +151,29 @@
 <br>
 <div class="section_one">
     <div>
-        <label class="button">submit</label>
+        <label class="label">Password:</label>
     </div>
     <div>
         <input
-        type="checkbox"
-        class="button"
+        type="password"
+        class="password"
+        placeholder="Enter password"
         />
     </div>
-</form>
 </div>
-    
+<br>
+<div class="section_one">
+    <div>
+        <label>submit:</label> 
+    </div>
+        <div>
+            <input
+            type="radio"
+            class="button"
+            />
+        </div>
+    </div>
+</form>
+</div>    
 </body>
 </html>
