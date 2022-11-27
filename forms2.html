@@ -25,23 +25,29 @@
         align-items: center;
 
     }
+    .submit{
+        background-color: blue;
+
+    }
+
+     
 </style>
 <body>
   <div>
     <form id="" class="" onsubmit="" action="">
-        <div class="section_one">
+    <div class="section_one">
         <div>
             <label class="label">firstname</label>
         </div>
-  </div>
-  <div>
-    <input
-    type="text"
-    class="input"
-    placeholder="Enter your firstname"
-    />
-  </div>
-
+        <div>
+            <input
+            type="text"
+            class="input"
+            placeholder="Enter your firstname"
+            />
+        </div>
+    </div>
+   <br>
   <div class="section_one">
     <div>
         <label class="label">Lastname</label>
@@ -54,55 +60,56 @@
         />
     </div>
   </div>
+<br>
   <div class="section_one">
     <div>
         <label class="label">Email</label>
     </div>
     <div>
         <input
-        type="text"
-        class="input"
+        type="email"
+        class="email-address"
         placeholder="Enter your email-address"
         />
     </div>
   </div>
-
+<br>
   <div class="section_one">
     <div>
         <label class="label">phoneNumber</label>
     </div>
     <div>
         <input
-        type="text"
+        type="number"
         class="input"
         placeholder="Enter your phoneNumber"
         />
     </div>
   </div>
-
+<br>
   <div class="section_one">
     <div>
-        <label class="label">status
+        <label class="label">Status
             <br>
             <label class="label">single</label>
             <input
-            type="select"
+            type="checkbox"
             class="input"
             />
             <label class="label">married</label>
             <input
-            type="select"
+            type="checkbox"
             class="input"
             />
             <label class="label">unknown</label>
             <input
-            type="select"
+            type="checkbox"
             class="input"
             />
         </label>
     </div>
   </div>
-
+<br>
   <div class="section_one">
     <div>
         <label class="label">gender</label>
@@ -120,16 +127,42 @@
     </div>
     </div>
 </div>
-
+<br>
 <div class="section_one">
     <div>
-        <label class="label">Date of birth</label>
+        <label>Date of birth</label>
     </div>
     <div>
         <input
         type="date"
         />
     </div>
+</div>
+<br>
+<div class="section_one">
+    <div>
+        <label class="textarea">Bio</label>
+    </div>
+    <div>
+        <input
+        type="text"
+        class="textarea"
+        placeholder="Enter your bio"
+        />
+    </div>
+</div>
+<br>
+<div class="section_one">
+    <div>
+        <label class="button">submit</label>
+    </div>
+    <div>
+        <input
+        type="checkbox"
+        class="button"
+        />
+    </div>
+</form>
 </div>
     
 </body>
