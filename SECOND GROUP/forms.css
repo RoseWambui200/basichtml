@@ -23,5 +23,12 @@ form{
     border-style: hidden;
     display: flex;
 }
-
+.gender{
+ border-style: hidden;
+ display: inline;
+}
+.container_four{
+    border-style: hidden;
+    display: flex;
+}
  
